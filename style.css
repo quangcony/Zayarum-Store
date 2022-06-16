@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
 * {
   margin: 0;
@@ -11,7 +11,7 @@
 body {
   background: #02140f;
   color: #fff;
-  font: normal 400 14px/22px "azo-sans-web", sans-serif;
+  font: normal 400 14px/22px 'azo-sans-web', sans-serif;
   letter-spacing: -0.24px;
 }
 ::selection {
@@ -68,7 +68,7 @@ h2 {
 .header-btn {
   display: flex;
   align-items: center;
-  font: normal 400 16px/1 "azo-sans-web", sans-serif;
+  font: normal 400 16px/1 'azo-sans-web', sans-serif;
   letter-spacing: 2px;
 }
 .header-btn .header-btn-icon {
@@ -88,7 +88,7 @@ h2 {
   transition: transform 0.3s ease;
 }
 .header-btn .header-btn-text span::before {
-  content: "Close";
+  content: 'Close';
   position: absolute;
   top: 0;
   left: -5px;
@@ -115,7 +115,7 @@ h2 {
 }
 .header-btn-icon span:nth-child(2):before,
 .header-btn-icon span:nth-child(2):after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -180,7 +180,7 @@ h2 {
 }
 .hero-border::before,
 .hero-border::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -303,7 +303,7 @@ h2 {
 }
 .nav-content .navigation li a {
   color: #818a87;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
   position: relative;
   transition: all 0.3s ease;
 }
@@ -311,14 +311,14 @@ h2 {
   color: #fff;
 }
 .nav-content .navigation a::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -20px;
   height: 18px;
   width: 100px;
   transform: translate(-100%, -50%);
-  background: url("img/arrow-right.svg") no-repeat 100% 50%;
+  background: url('img/arrow-right.svg') no-repeat 100% 50%;
   opacity: 0;
   transition: opacity 0.2s ease,
     transform 0.5s cubic-bezier(0.34, 0.55, 0.25, 0.83);
@@ -399,7 +399,7 @@ body.loaded.cocktails .header-logo.active {
   transform: translateX(-50%) rotate(90deg);
   height: 18px;
   width: 175px;
-  background: url("img/arrow-right.svg") no-repeat;
+  background: url('img/arrow-right.svg') no-repeat;
   animation: animate 1s cubic-bezier(0.34, 0.55, 0.25, 0.83) infinite alternate;
 }
 @keyframes animate {
@@ -417,9 +417,9 @@ body.loaded.cocktails .header-logo.active {
 .cocktails-page .recipes .cocktail {
   display: flex;
   align-items: center;
-  padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .cocktails-page .recipes .cocktail-images {
   width: 45%;
   position: relative;
@@ -481,7 +481,7 @@ body.loaded.cocktails .header-logo.active {
   display: flex;
 }
 .cocktails-page .recipes .cocktail-recipe-directions ol li::before {
-  content: counter(num, decimal-leading-zero) ". ";
+  content: counter(num, decimal-leading-zero) '. ';
   margin-right: 4px;
 }
 .cocktails-page .blurb {
@@ -489,7 +489,7 @@ body.loaded.cocktails .header-logo.active {
   padding-bottom: 350px;
 }
 .cocktails-page .blurb::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -548,8 +548,6 @@ body.loaded.cocktails .header-logo.active {
 }
 .section--full {
   height: 100vh;
-  max-height: 850px;
-  min-height: 650px;
 }
 
 .container {
@@ -587,19 +585,19 @@ body.loaded.cocktails .header-logo.active {
   z-index: 1;
 }
 .title-lg {
-  font: normal 400 43px/58px "Libre Caslon Display", serif;
+  font: normal 400 43px/58px 'Libre Caslon Display', serif;
   font-size: 54px;
   line-height: 62px;
   letter-spacing: -0.92px;
 }
 .title-xl {
-  font: normal 400 54px/62px "Libre Caslon Display", serif;
+  font: normal 400 54px/62px 'Libre Caslon Display', serif;
   font-size: 90px;
   line-height: 100px;
   letter-spacing: -1.53px;
 }
 .title-sm {
-  font: italic 400 30px/40px "Playfair Display", serif;
+  font: italic 400 30px/40px 'Playfair Display', serif;
   letter-spacing: -0.51px;
 }
 .mx-auto {
@@ -619,7 +617,7 @@ body.loaded.cocktails .header-logo.active {
   max-width: 400px;
 }
 .subtitle {
-  font: normal 400 16px/1 "Baloo Tamma 2", cursive;
+  font: normal 400 16px/1 'Baloo Tamma 2', cursive;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -662,7 +660,7 @@ body.loaded.cocktails .header-logo.active {
 }
 .btn {
   display: inline-block;
-  font: normal 400 16px/1 "Libre Caslon Display", serif;
+  font: normal 400 16px/1 'Libre Caslon Display', serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
@@ -856,6 +854,7 @@ body.loaded .home-page .hero-text {
 .fade {
   opacity: 0;
 }
+
 @keyframes anim1 {
   from {
     transform: translate(25px, 0);
@@ -864,5 +863,105 @@ body.loaded .home-page .hero-text {
   to {
     transform: translate(0, 0);
     opacity: 1;
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .container-xs {
+    max-width: 300px;
+  }
+  .nav-img {
+    display: none;
+  }
+  .nav-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title-xl {
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .hero-arrow {
+    left: 35%;
+    transform: translateX(-35%) rotate(90deg);
+  }
+  .cocktails-page .hero-flavor--left-top img {
+    max-height: 160px;
+  }
+  .cocktails-page .hero-flavor--left-bottom img {
+    max-height: 260px;
+  }
+  .cocktails-page .hero-flavor--right-top img {
+    max-height: 300px;
+  }
+  .cocktails-page .hero-flavor--right-bottom img {
+    max-height: 160px;
+  }
+  .cocktails-page .recipes .cocktail {
+    flex-direction: column;
+  }
+  .cocktails-page .recipes .cocktail-images {
+    width: 95%;
+    padding: 10px;
+  }
+  .cocktails-page .recipes .cocktail-text {
+    width: 100%;
+  }
+  .cocktails-page .recipes .cocktail .cocktail-text {
+    order: -1;
+  }
+
+  .grid-images {
+    padding-top: 25px;
+  }
+
+  .title-lg {
+    font-size: 30px;
+  }
+
+  .cocktails-page .blurb-flavor--left-bottom img {
+    max-height: 260px;
+  }
+  .cocktails-page .blurb-flavor--right-bottom img {
+    max-height: 200px;
+  }
+
+  .cocktails-page .blurb-flavor--right-bottom {
+    right: 20%;
+  }
+
+  .footer-main {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    flex-direction: column;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  .footer-logo img {
+    max-width: 280px;
+  }
+  .footer-nav {
+    width: 100%;
+    margin-top: 20px;
+    border-image-slice: 0;
+  }
+  .footer-content {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .icon-group {
+    justify-content: center;
+  }
+  .footer-copyright {
+    max-width: none;
   }
 }

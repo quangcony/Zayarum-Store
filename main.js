@@ -65,4 +65,3 @@ fadeLeftIn.forEach(lazyLoad);
 fadeRightIn.forEach(lazyLoad);
 fadeUpIn.forEach(lazyLoad);
 fade.forEach(lazyLoad);
-

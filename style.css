@@ -872,6 +872,12 @@ body.loaded .home-page .hero-text {
 
 /* mobile */
 @media only screen and (max-width: 768px) {
+  .title-xl {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
   .container-xs {
     max-width: 300px;
   }
@@ -881,9 +887,6 @@ body.loaded .home-page .hero-text {
   .nav-content {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 400px) {
   .title-xl {
     font-size: 50px;
     line-height: 80px;
@@ -946,7 +949,7 @@ body.loaded .home-page .hero-text {
     width: 100%;
   }
   .footer-logo img {
-    max-width: 280px;
+    max-width: 230px;
   }
   .footer-nav {
     width: 100%;
